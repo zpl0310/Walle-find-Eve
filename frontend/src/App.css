@@ -1,0 +1,82 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 0px 0px;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #82a3d8;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #adc7ed;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.message {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff7c14;
+  height: 60px;
+}
+
+.cell {
+  height: 70px;
+  width: 70px;
+  border: 2px solid #f48942;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.walle {
+  height: 50px;
+  width: 50px;
+  background-color:#ef9a53;
+  border-radius: 100px;
+  transition: background-color 0.5s;
+}
+
+.ave {
+  height: 50px;
+  width: 50px;
+  background-color: #f7c3ed;
+  border-radius: 100px;
+  transition: background-color 0.5s;
+}
+
+.stone {
+  height: 50px;
+  width: 50px;
+  background-color: #5a5f66;
+  border-radius: 20px;
+  transition: background-color 0.5s;
+}
